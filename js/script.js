@@ -21,7 +21,7 @@ function bgAnimationItems(){
 }
 bgAnimationItems();
 
-/* ------- Toggle Navbar ------- */
+/* ------- Toggele Navbar -------- */
 const navToggler = document.querySelector('.nav-toggler');
 navToggler.addEventListener('click', toggleNavbar);
 
@@ -32,7 +32,7 @@ function toggleNavbar(){
     toggleBodyScrolling();
 }
 
-/* --------- Hide & show Selection -------- */
+/* ---------- Hide & show Selection ---------- */
 
 document.addEventListener('click', (e) =>{
     if(e.target.classList.contains('link-item') && e.target.hash !== ''){
