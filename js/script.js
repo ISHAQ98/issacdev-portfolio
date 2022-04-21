@@ -8,7 +8,7 @@ window.addEventListener('load', () =>{
 });
 
 
-/* ----- Bg animation effect ------- */
+/* ----- Background animation effect ------- */
 function bgAnimationItems(){
     const rows = 7, cols = 10;
     for(let i= 0; i < rows; i++){
